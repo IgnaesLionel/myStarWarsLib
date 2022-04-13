@@ -1,7 +1,7 @@
 .character{
     background: $color-1;
     height: 20rem;
-    width: 35rem;
+    width: 30rem;
     border-style: solid;
     border-color: #d6bf7c;
     padding : 1.2rem;
@@ -9,14 +9,14 @@
     margin: 0.6rem;
     flex-wrap: wrap;
     border-radius: 10px;
-    align-items: center; /* alignement verticalement*/
-    justify-content: center; /* centrer horizontalement */
-    box-shadow: 5px 9px 9px 2px #12121262;
+    align-items: center; 
+    justify-content: center; 
+    box-shadow: 4px 4px 4px 1px #96969662;
 }
 
 .character h2 {
     color: $color-2;
-    margin: 5px 5px ;
+    margin: 0px auto ;
     width: 65%;
     transform: translate(+15%,-50%);
     text-shadow: 2px 2px 3px rgb(14, 1, 1);
@@ -26,17 +26,12 @@
 .pix {
     background: $color-2;
     height: 10rem;
-    width: 25%;
+    width: 30%;
     border-radius: 10px;
     border-style: solid;
     border-color: #d6bf7c;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
-
 }
-.character span{
+.character p{
     margin: 5px 5px;
     color: $color-2;
 
@@ -46,4 +41,42 @@
     width: 100%;
     height: 100%;
     border-style: solid;
+}
+
+@media screen and (max-width: 500px) {
+    .character{
+        width: 18rem;
+        display: block;
+        height: auto;
+
+       
+    }
+
+    .pix{
+        height: 8rem;
+        width: 50%;
+        margin: 10px auto;
+
+    }
+
+    .character p {
+    
+
+    }
+
+
+.character h2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-left : 15px;
+    margin-right: 0px;
+    
+}
+
+}
+  .characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
