@@ -1,5 +1,5 @@
 .lounge {
-    background: $color-3;
+    background-image: linear-gradient(to bottom, #051937, #004b76, #0085a9, #00c2c5, #00ffc6);
     display: flex;
     flex-wrap: wrap;
     align-items: center; /* alignement verticalement*/
@@ -8,4 +8,8 @@
 
 .lounge h1 {
     margin : 20px;
+}
+
+.centeredText {
+    text-align: center;
 }

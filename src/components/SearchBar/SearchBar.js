@@ -36,52 +36,40 @@ class SearchBar extends Component {
     const { filterText, maleGender, femaleGender, robotGender } = this.props;
     return (
       <>
-        <div className="form-group mb-0">
+        <div className="form">
           <input
             type="text"
             value={filterText}
-            className="form-control"
+            className="cssInput"
             id="search"
             name="search"
             placeholder="Rechercher"
             onChange={this.handleFilterTextChange}
           />
-          <div className="form-check">
+          <div>
             <input
               type="checkbox"
               checked={maleGender}
-              className="form-check-input"
               id="char1"
               onChange={this.handleMaleGender}
             />
-            <label htmlFor="char1" className="form-check-label">
-              {" "}
-              Homme{" "}
-            </label>
+            <label htmlFor="char1"> Homme </label>
 
             <input
               type="checkbox"
               checked={femaleGender}
-              className="form-check-input"
               id="char2"
               onChange={this.handleFemaleGender}
             />
-            <label htmlFor="char2" className="form-check-label">
-              {" "}
-              Femme{" "}
-            </label>
+            <label htmlFor="char2"> Femme </label>
 
             <input
               type="checkbox"
               checked={robotGender}
-              className="form-check-input"
               id="char3"
               onChange={this.handleRobotGender}
             />
-            <label htmlFor="char3" className="form-check-label">
-              {" "}
-              Robot{" "}
-            </label>
+            <label htmlFor="char3"> Robot </label>
           </div>
         </div>
       </>

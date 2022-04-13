@@ -5,7 +5,7 @@ $font-2: 'Dosis', sans-serif;
 $font-3: 'Josefin Sans', serif;
 
 $color-1: #155c9e;
-$color-2: #62a0db;
+$color-2: #b0d9ff;
 $color-3: #000000;
 $color-4: #d6bf7c;
 $color-5: #36D0EA;
@@ -45,18 +45,4 @@ a {
 }
 a:visited {
   color:$black;
-}
-.home, .knowledges, .portfolio, .contact {
-  display: flex;
-
-  @media screen and (max-width: 850px){
-    display: block !important;
-  }
-}
-.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
-  margin-left: .4rem;
-
-  @media screen and (max-width: 850px){
-    margin-left: 0 !important;
-  }
 }
