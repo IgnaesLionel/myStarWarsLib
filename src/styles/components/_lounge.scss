@@ -13,10 +13,18 @@
 }
 
 .lounge h1 {
-    margin : 20px;
+    margin : 10px;
 }
 
 .centeredText {
     text-align: center;
-    margin: 30px;
+    
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.centeredBloc{
+    background-color: black;
+    display : flex;
+    justify-content: center;
 }

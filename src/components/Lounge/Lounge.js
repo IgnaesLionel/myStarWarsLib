@@ -40,7 +40,14 @@ class Lounge extends Component {
     return (
       <div>
         <h1 className="centeredText"> Générateur de carte</h1>
-        <h1 className="centeredText">STAR WARS</h1>
+
+        <div className="centeredBloc">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Star_Wars_Logo..png/640px-Star_Wars_Logo..png"
+            height="150px"
+            alt="starwars logo"
+          />
+        </div>
 
         <SearchBar
           onMaleGenderChange={this.handleMaleGenderFilter}
