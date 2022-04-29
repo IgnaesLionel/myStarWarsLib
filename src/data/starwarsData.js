@@ -51,7 +51,7 @@ export const starwarsData = [
     starships: [],
     created: "2014-12-10T15:10:51.357000Z",
     edited: "2014-12-20T21:17:50.309000Z",
-    url: "https://www.pikpng.com/pngl/m/194-1943612_c3po-png-r2-and-c3po-clipart.png",
+    url: "https://pm1.narvii.com/5991/35f87b920d15a34eb405d5012f5a8efcbcb2ed39_hq.jpg",
   },
   {
     name: "R2-D2",
@@ -76,7 +76,7 @@ export const starwarsData = [
     starships: [],
     created: "2014-12-10T15:11:50.376000Z",
     edited: "2014-12-20T21:17:50.311000Z",
-    url: "https://static.wikia.nocookie.net/starwars/images/3/3f/C-3PO_TLJ_Card_Trader_Award_Card.png/revision/latest/scale-to-width-down/243?cb=20180121052644",
+    url: "https://upload.wikimedia.org/wikipedia/en/3/39/R2-D2_Droid.png",
   },
   {
     name: "Dark Vador",
