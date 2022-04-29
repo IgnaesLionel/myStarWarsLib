@@ -76,7 +76,7 @@ export const starwarsData = [
     starships: [],
     created: "2014-12-10T15:11:50.376000Z",
     edited: "2014-12-20T21:17:50.311000Z",
-    url: "https://upload.wikimedia.org/wikipedia/en/3/39/R2-D2_Droid.png",
+    url: "https://static.wikia.nocookie.net/starwars/images/3/3f/C-3PO_TLJ_Card_Trader_Award_Card.png/revision/latest/scale-to-width-down/243?cb=20180121052644",
   },
   {
     name: "Dark Vador",
