@@ -51,7 +51,7 @@ export const starwarsData = [
     starships: [],
     created: "2014-12-10T15:10:51.357000Z",
     edited: "2014-12-20T21:17:50.309000Z",
-    url: "http://www.starwarshelmets.com/c3poanh1.jpg",
+    url: "https://www.pikpng.com/pngl/m/194-1943612_c3po-png-r2-and-c3po-clipart.png",
   },
   {
     name: "R2-D2",
