@@ -22,14 +22,20 @@ class SearchBar extends Component {
 
   handleMaleGender(e) {
     this.props.onMaleGenderChange(e.target.checked);
+    this.props.onRobotGenderChange(false);
+    this.props.onFemaleGenderChange(false);
   }
 
   handleFemaleGender(e) {
     this.props.onFemaleGenderChange(e.target.checked);
+    this.props.onRobotGenderChange(false);
+    this.props.onMaleGenderChange(false);
   }
 
   handleRobotGender(e) {
     this.props.onRobotGenderChange(e.target.checked);
+    this.props.onMaleGenderChange(false);
+    this.props.onFemaleGenderChange(false);
   }
 
   render() {
