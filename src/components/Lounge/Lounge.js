@@ -39,8 +39,8 @@ class Lounge extends Component {
     const data = this.state.data.starwarsData;
     return (
       <div>
+        <h1 className="centeredText"> Générateur de carte</h1>
         <h1 className="centeredText">STAR WARS</h1>
-        <h2 className="centeredText"> Générateur de cartes</h2>
 
         <SearchBar
           onMaleGenderChange={this.handleMaleGenderFilter}

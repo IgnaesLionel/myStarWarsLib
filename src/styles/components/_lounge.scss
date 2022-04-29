@@ -2,8 +2,14 @@
     background-image: linear-gradient(to bottom, #051937, #004b76, #0085a9, #00c2c5, #00ffc6);
     display: flex;
     flex-wrap: wrap;
-    align-items: center; /* alignement verticalement*/
-    justify-content: center; /* centrer horizontalement */
+    justify-content: center; 
+    min-height: 100vh;
+    border: 3px solid #d6bf7c;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+ padding-top: 30px;
+
 }
 
 .lounge h1 {
@@ -12,4 +18,5 @@
 
 .centeredText {
     text-align: center;
+    margin: 30px;
 }
