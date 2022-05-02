@@ -52,7 +52,7 @@ class SearchBar extends Component {
             placeholder="Rechercher"
             onChange={this.handleFilterTextChange}
           />
-          <div className="margin-left">
+          <div>
             <input
               type="checkbox"
               checked={maleGender}
